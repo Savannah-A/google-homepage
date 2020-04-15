@@ -2,4 +2,27 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow: hidden;
   }
+
+.header {
+    float: right;
+}
+
+li {
+    display: inline;
+  }
+
+li:hover {
+    text-decoration: underline;
+  }
+
+.search-buttons {
+      display: block;
+      margin: 0 auto;
+      width: 30px;
+  }
+
+footer {
+    float: left;
+}
