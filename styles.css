@@ -1,3 +1,7 @@
+body {
+    background-color: white;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -6,7 +10,35 @@ ul {
   }
 
 .header {
-    float: right;
+    float: inline-end;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 136px;
+    max-width: 100%;
+    height: 45px;
+    padding-top: 6rem;
+}
+
+input {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    margin-top: 20px;
+    border-radius: 30px;
+    border-color: white;
+    padding: 5px;
+    box-shadow: 3px 3px 20px #ebebeb;
+}
+
+#country-declarer {
+    text-align: start;
+}
+
+p {
+    text-align: center;
 }
 
 li {
@@ -18,11 +50,35 @@ li:hover {
   }
 
 .search-buttons {
-      display: block;
-      margin: 0 auto;
-      width: 30px;
-  }
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+}
+
+#gsearch {
+    cursor: pointer;
+    padding: 10px;
+    margin-right: 10px;
+    background-color:#c6c6c6;
+    color: #a8a8a8;
+    border: 1px solid #c6c6c6;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+#lucky {
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 10px;
+    background-color:#c6c6c6;
+    color: #a8a8a8;
+    border: 1px solid #c6c6c6;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
 
 footer {
     float: left;
+    color: rgba(0,0,0,.54);
+    background-color: lightgrey;
 }
