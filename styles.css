@@ -2,11 +2,21 @@ body {
     background-color: white;
 }
 
-ul {
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-container {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    color: black;
   }
 
 .header {
@@ -16,25 +26,34 @@ ul {
 img {
     display: block;
     margin: 0 auto;
-    width: 136px;
+    width: 272px;
     max-width: 100%;
-    height: 45px;
+    height: 92px;
     padding-top: 6rem;
 }
 
 input {
     display: block;
     margin: 0 auto;
-    width: 60%;
+    width: 1000px;
+    min-width: 20%;
+    max-width: 50%;
     margin-top: 20px;
+    border: 1px solid #d9d9d9;
     border-radius: 30px;
-    border-color: white;
-    padding: 5px;
-    box-shadow: 3px 3px 20px #ebebeb;
+    padding: 10px 14px 10px 14px;
+
 }
+
+#dots {
+    max-height: 10%;
+    max-width: 6%;
+}
+
 
 #country-declarer {
     text-align: start;
+    text-decoration: ;
 }
 
 p {
@@ -42,11 +61,11 @@ p {
 }
 
 li {
-    display: inline;
+    margin: 4px 7px;
   }
 
 li:hover {
-    text-decoration: underline;
+    text-decoration: underline !important;
   }
 
 .search-buttons {
@@ -55,24 +74,34 @@ li:hover {
       justify-content: center;
 }
 
+#lang {
+    font-family: arial, sans-serif;
+    font-size: small;
+}
+
 #gsearch {
     cursor: pointer;
+    font-family: arial, sans-serif;
+    font-size: 14px;
     padding: 10px;
     margin-right: 10px;
-    background-color:#c6c6c6;
-    color: #a8a8a8;
-    border: 1px solid #c6c6c6;
+    background-color:#f0f0f0;
+    color: #808080;
+    border: 1px solid #f0f0f0;
     border-radius: 5px;
     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 }
 
 #lucky {
     cursor: pointer;
+    font-size: small;
+    font-family: arial, sans-serif;
+    font-size: 14px;
     padding: 10px;
     margin-left: 10px;
-    background-color:#c6c6c6;
-    color: #a8a8a8;
-    border: 1px solid #c6c6c6;
+    background-color:#f0f0f0;
+    color: #808080;
+    border: 1px solid #f0f0f0;
     border-radius: 5px;
     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 }
