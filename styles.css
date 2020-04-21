@@ -21,6 +21,12 @@ a {
 
 .header {
     float: inline-end;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.header:hover {
+    text-decoration: underline;
 }
 
 img {
@@ -50,10 +56,18 @@ input {
     max-width: 6%;
 }
 
+#sign {
+    border: 1px solid rgb(67, 135, 253);
+    background-color:rgb(67, 135, 253);
+    border-radius: 3px;
+    color: white;
+    padding: 5px 15px;
+    }
+
 
 #country-declarer {
     text-align: start;
-    text-decoration: ;
+    width: 100%;
 }
 
 p {
@@ -77,6 +91,14 @@ li:hover {
 #lang {
     font-family: arial, sans-serif;
     font-size: small;
+}
+
+.lang {
+    color: #0000EE;
+}
+
+.lang:hover {
+    text-decoration: underline;
 }
 
 #gsearch {
@@ -107,7 +129,29 @@ li:hover {
 }
 
 footer {
-    float: left;
     color: rgba(0,0,0,.54);
     background-color: lightgrey;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    padding-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+footer ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 1px black solid;
+    border-width: 100%;
+}
+
+.bottom {
+   display: inline; 
 }
